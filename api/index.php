@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zxx">
 
 <head>
@@ -19,7 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Onest:wght@100..900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Onest:wght@100..900&family=Rajdhani:wght@600;700;800&family=Exo+2:wght@700;800;900&display=swap"
         rel="stylesheet">
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
@@ -233,7 +233,7 @@
                 <div class="col-lg-7 col-md-12">
                     <div class="sbr-plant-info-content sbr-about-intro-anim">
                         <span class="sbr-plant-badge" data-i18n="about_tag">About Us</span>
-                        <h2 class="sbr-plant-main-title sbr-anim-title" data-cursor="-opaque" data-i18n="about_welcome">Welcome to <span>SBR Machines Pvt. Ltd.</span></h2>
+                        <h2 class="sbr-plant-main-title sbr-anim-title" data-cursor="-opaque" data-i18n="about_welcome"><span class="title-welcome">Welcome to</span> <span class="title-brand">SBR Machines Pvt. Ltd.</span></h2>
                         <h3 class="sbr-plant-sub-title sbr-anim-subtitle" data-i18n="about_title">Leading Manufacturer of <span>Advanced PET Blow Moulding Machines</span></h3>
                         
                         <p class="mb-3" data-i18n="plant_desc1">SBR Machines Pvt. Ltd. is an industry pioneer in manufacturing high-speed, energy-efficient PET Stretch Blow Moulding Machines. From our state-of-the-art mother plant in Chakan Industrial Corridor, Pune, we design turnkey solutions with HAAS CNC precision machining.</p>
@@ -371,6 +371,117 @@
         </div>
     </section>
     <!-- Point 5 & 6 Vision & Mission End -->
+
+    <!-- In-House Fabrication & Sheet Metal Setup Section Start -->
+    <section class="sbr-fabrication-section" id="fabrication-setup">
+        <div class="container">
+            <!-- Section Header -->
+            <div class="row section-row align-items-center">
+                <div class="col-lg-12 text-center">
+                    <div class="section-title section-title-center">
+                        <span class="sbr-plant-badge"><i class="fa-solid fa-industry"></i> <span data-i18n="fab_badge">In-House Manufacturing Excellence</span></span>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque" data-i18n="fab_title">100% In-House <span>Fabrication &amp; CNC Setup</span></h2>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <!-- In-House Strength Trust Metrics Bar -->
+           
+
+            <!-- In-House 4 Facilities Cards Grid -->
+            <div class="row g-4">
+                <!-- Card 1: Sheet Metal & Fiber Laser Cutting -->
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="sbr-fab-card wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="sbr-fab-card-img">
+                            <img src="images/company/web/DSC07001.JPG" alt="Sheet Metal & Laser Cutting Plant" loading="lazy">
+                            <div class="sbr-fab-tag-badge"><i class="fa-solid fa-industry"></i> Plant Floor</div>
+                        </div>
+                        <div class="sbr-fab-card-body">
+                            <h4 data-i18n="fab_c1_t">Sheet Metal &amp; High-Speed Laser Fabrication</h4>
+                            <p data-i18n="fab_c1_d">Our dedicated sheet metal fabrication division features heavy-capacity industrial fiber laser cutting machines for processing heavy structural steel plates, machine enclosures, and safety shrouds with absolute micron accuracy.</p>
+                            <div class="sbr-fab-specs-pills">
+                                <span><i class="fa-solid fa-check"></i> High-Speed Fiber Laser</span>
+                                <span><i class="fa-solid fa-check"></i> Heavy Structural Steel</span>
+                                <span><i class="fa-solid fa-check"></i> Overhead Crane Handling</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2: CNC Hydraulic Bending Press -->
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="sbr-fab-card wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="sbr-fab-card-img">
+                            <img src="images/company/web/DSC07007.JPG" alt="CNC Hydraulic Bending Press Machine" loading="lazy">
+                            <div class="sbr-fab-tag-badge"><i class="fa-solid fa-wrench"></i> Bending Division</div>
+                        </div>
+                        <div class="sbr-fab-card-body">
+                            <h4 data-i18n="fab_c2_t">CNC Multi-Axis Hydraulic Bending Press</h4>
+                            <p data-i18n="fab_c2_d">Equipped with heavy industrial press brakes for precision sheet metal bending. Ensures seamless angular tolerances, robust machine side-panels, and rigid vibration-damping outer body architecture.</p>
+                            <div class="sbr-fab-specs-pills">
+                                <span><i class="fa-solid fa-check"></i> Multi-Axis CNC Bending</span>
+                                <span><i class="fa-solid fa-check"></i> Seamless Finish &amp; Fit</span>
+                                <span><i class="fa-solid fa-check"></i> Rigid Body Protection</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3: CNC Machining Centers & Tooling -->
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="sbr-fab-card wow fadeInUp" data-wow-delay="0.15s">
+                        <div class="sbr-fab-card-img">
+                            <img src="images/company/web/DSC07054.JPG" alt="Precision CNC Machining Centers" loading="lazy">
+                            <div class="sbr-fab-tag-badge"><i class="fa-solid fa-screwdriver-wrench"></i> Machining Centers</div>
+                        </div>
+                        <div class="sbr-fab-card-body">
+                            <h4 data-i18n="fab_c3_t">Precision CNC &amp; VMC Machining Centers</h4>
+                            <p data-i18n="fab_c3_d">Our skilled engineering personnel operate vertical CNC machining centers (VMC) in-house to mill and turn critical mechanical parts, mould clamping platens, stretch rods, and high-pressure pneumatic blocks.</p>
+                            <div class="sbr-fab-specs-pills">
+                                <span><i class="fa-solid fa-check"></i> CNC Precision Milling</span>
+                                <span><i class="fa-solid fa-check"></i> HAAS CNC Accuracy</span>
+                                <span><i class="fa-solid fa-check"></i> Zero-Defect Inspection</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4: Heavy Base Frame & Mould Tooling -->
+                <div class="col-lg-6 col-md-6 col-12">
+                    <div class="sbr-fab-card wow fadeInUp" data-wow-delay="0.25s">
+                        <div class="sbr-fab-card-img">
+                            <img src="images/company/web/DSC07076.JPG" alt="Heavy Base Frame & Mould Tooling Section" loading="lazy">
+                            <div class="sbr-fab-tag-badge"><i class="fa-solid fa-cubes"></i> Structure Fabrication</div>
+                        </div>
+                        <div class="sbr-fab-card-body">
+                            <h4 data-i18n="fab_c4_t">Heavy Base Frame Welding &amp; Mould Tooling</h4>
+                            <p data-i18n="fab_c4_d">Heavy-duty structural base frames and mould clamping structures are welded and machined in-house. Designed to withstand high clamping forces </p>
+                            <div class="sbr-fab-specs-pills">
+                                <span><i class="fa-solid fa-check"></i> Stress-Relieved Chassis</span>
+                                <span><i class="fa-solid fa-check"></i> High Clamping Resistance</span>
+                                <span><i class="fa-solid fa-check"></i> 10+ Years Frame Life</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Plant Visit Strip -->
+            <div class="sbr-fab-cta-strip wow fadeInUp" data-wow-delay="0.2s">
+                <div>
+                    <h3 data-i18n="fab_cta_t">See Our In-House Fabrication Live at MIDC Chakan</h3>
+                    <p data-i18n="fab_cta_d">We invite packaging manufacturers and business owners to inspect our mother plant, laser cutting, and live testing bays.</p>
+                </div>
+                <div class="sbr-fab-cta-actions">
+                    <a href="contact.php" class="btn-default" data-i18n="fab_cta_btn1">Schedule Plant Visit</a>
+                    <a href="gallery.php" class="btn-outline-light" data-i18n="fab_cta_btn2"><i class="fa-regular fa-images me-1"></i> View Factory Gallery</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- In-House Fabrication & Sheet Metal Setup Section End -->
 
     <!-- Machine Range Section (Products) - Point 7: Check Machine Model & Cavity No. -->
     <div class="our-services" id="machines">
@@ -1113,7 +1224,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="faqs-image">
-                        <figure class="image-anime reveal"><img src="images/faqs-image.jpg" alt="FAQ"></figure>
+                        <figure class="image-anime reveal"><img src="images/faq.png" alt="FAQ"></figure>
                     </div>
                 </div>
                 <div class="col-lg-6">

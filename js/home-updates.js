@@ -29,7 +29,7 @@ const sbrTranslations = {
 
         // About SBR, Plant & Director (Point 4)
         about_tag: "About Us",
-        about_welcome: "Welcome to <span>SBR Machines Pvt. Ltd.</span>",
+        about_welcome: '<span class="title-welcome">Welcome to</span> <span class="title-brand">SBR Machines Pvt. Ltd.</span>',
         about_title: "Leading Manufacturer of <span>Advanced PET Blow Moulding Machines</span>",
         plant_sub: "Mother Plant: Chakan MIDC Phase-II, Pune (50,000+ Sq. Ft. Facility)",
         plant_desc1: "SBR Machines Pvt. Ltd. is an industry pioneer in manufacturing high-speed, energy-efficient PET Stretch Blow Moulding Machines. From our state-of-the-art mother plant in Chakan Industrial Corridor, Pune, we design turnkey solutions with HAAS CNC precision machining.",
@@ -59,6 +59,31 @@ const sbrTranslations = {
         mission_badge: "Core Purpose",
         mission_title: "Our Mission",
         mission_desc: "To engineer ultra-reliable, energy-saving, and high-productivity PET machines with comprehensive turnkey service support, enabling packaging manufacturers to maximize output while minimizing operational expenses.",
+
+        // In-House Fabrication (New Section)
+        fab_badge: "In-House Manufacturing Excellence",
+        fab_title: "100% In-House <span>Fabrication & CNC Setup</span>",
+        fab_sub: "At SBR Machines, we don't outsource critical manufacturing. From heavy steel base chassis to CNC laser cutting, hydraulic sheet metal bending, and CNC mould tooling — everything is engineered and fabricated under one roof in our Chakan mother plant.",
+        fab_m1_t: "Zero Outsourcing",
+        fab_m1_d: "100% in-house manufacturing control",
+        fab_m2_t: "Micron Precision",
+        fab_m2_d: "HAAS CNC & fiber laser accuracy",
+        fab_m3_t: "Heavy Base Frames",
+        fab_m3_d: "Vibration-free heavy gauge steel",
+        fab_m4_t: "24/7 Heavy Duty",
+        fab_m4_d: "Built for non-stop plant productivity",
+        fab_c1_t: "Sheet Metal & High-Speed Laser Fabrication",
+        fab_c1_d: "Our dedicated sheet metal fabrication division features heavy-capacity industrial fiber laser cutting machines for processing heavy structural steel plates, machine enclosures, and safety shrouds with absolute micron accuracy.",
+        fab_c2_t: "CNC Multi-Axis Hydraulic Bending Press",
+        fab_c2_d: "Equipped with heavy industrial press brakes for precision sheet metal bending. Ensures seamless angular tolerances, robust machine side-panels, and rigid vibration-damping outer body architecture.",
+        fab_c3_t: "Precision CNC & VMC Machining Centers",
+        fab_c3_d: "Our skilled engineering personnel operate vertical CNC machining centers (VMC) in-house to mill and turn critical mechanical parts, mould clamping platens, stretch rods, and high-pressure pneumatic blocks.",
+        fab_c4_t: "Heavy Base Frame Welding & Mould Tooling",
+        fab_c4_d: "Heavy-duty structural base frames and mould clamping structures are welded and machined in-house. Designed to withstand high clamping forces and repetitive continuous 24/7 blowing cycles without structural fatigue.",
+        fab_cta_t: "See Our In-House Fabrication Live at MIDC Chakan",
+        fab_cta_d: "We invite packaging manufacturers and business owners to inspect our mother plant, laser cutting, and live testing bays.",
+        fab_cta_btn1: "Schedule Plant Visit",
+        fab_cta_btn2: "View Factory Gallery",
 
         // Range of Products (Point 7)
         prod_tag: "Our Products",
@@ -139,7 +164,7 @@ const sbrTranslations = {
 
         // About SBR, Plant & Director (Point 4)
         about_tag: "हमारे बारे में",
-        about_welcome: "<span>एसबीआर मशीन्स प्राइवेट लिमिटेड</span> में आपका स्वागत है",
+        about_welcome: '<span class="title-brand">एसबीआर मशीन्स प्राइवेट लिमिटेड</span> <span class="title-welcome">में आपका स्वागत है</span>',
         about_title: "उन्नत <span>पीईटी ब्लो मोल्डिंग मशीनों</span> के अग्रणी निर्माता",
         plant_sub: "मदर प्लांट: चाकण एमआईडीसी फेज-II, पुणे (50,000+ वर्ग फुट प्लांट)",
         plant_desc1: "एसबीआर मशीन्स प्राइवेट लिमिटेड उच्च गति और ऊर्जा की बचत करने वाली पीईटी स्ट्रेच ब्लो मोल्डिंग मशीनों के निर्माण में अग्रणी नाम है। पुणे के चाकण स्थित हमारे आधुनिक प्लांट में HAAS CNC मशीनों से सटीक निर्माण किया जाता है।",
@@ -169,6 +194,31 @@ const sbrTranslations = {
         mission_badge: "मूल उद्देश्य",
         mission_title: "हमारा मिशन",
         mission_desc: "विश्वसनीय, बिजली बचाने वाली और उच्च उत्पादकता वाली पीईटी मशीनें तैयार करना और संपूर्ण टर्नकी सेवा समर्थन देकर ग्राहकों की उत्पादन लागत घटाना और मुनाफा बढ़ाना।",
+
+        // In-House Fabrication (New Section)
+        fab_badge: "स्वयं का इन-हाउस निर्माण सेटअप",
+        fab_title: "100% संपूर्ण <span>इन-हाउस फैब्रिकेशन एवं सीएनसी</span> सुविधा",
+        fab_sub: "एसबीआर मशीन्स में हम किसी भी मुख्य कार्य की आउटसोर्सिंग नहीं करते। हेवी स्टील बेस फ्रेम से लेकर सीएनसी लेजर कटिंग, हाइड्रोलिक बेंडिंग और सीएनसी मोल्ड टूलिंग — सब कुछ हमारे चाकण प्लांट में स्वयं तैयार किया जाता है।",
+        fab_m1_t: "शून्य आउटसोर्सिंग",
+        fab_m1_d: "100% इन-हाउस निर्माण गुणवत्ता नियंत्रण",
+        fab_m2_t: "माइक्रोन शुद्धता",
+        fab_m2_d: "HAAS CNC एवं फाइबर लेजर सटीकता",
+        fab_m3_t: "मजबूत बेस फ्रेम",
+        fab_m3_d: "कंपन-मुक्त हेवी गेज स्टील संरचना",
+        fab_m4_t: "24/7 हेवी ड्यूटी",
+        fab_m4_d: "निरंतर बिना रुके उत्पादन के लिए निर्मित",
+        fab_c1_t: "शीट मेटल एवं फाइबर लेजर कटिंग प्लांट",
+        fab_c1_d: "हमारे विशाल फैब्रिकेशन प्लांट में आधुनिक इंडस्ट्रियल फाइबर लेजर मशीनें हैं, जिनसे मशीन चेसिस, बॉडी कवर्स और स्ट्रक्चरल प्लेट्स माइक्रोन सटीकता से काटी जाती हैं।",
+        fab_c2_t: "सीएनसी हाइड्रोलिक शीट मेटल बेंडिंग प्रेस",
+        fab_c2_d: "मल्टी-एक्सिस हेवी हाइड्रोलिक प्रेस ब्रेक मशीनों से शीट मेटल की सटीक बेंडिंग की जाती है, जिससे मशीन बॉडी को मजबूती, कंपन-प्रतिरोध और उत्कृष्ट फिनिशिंग मिलती है।",
+        fab_c3_t: "प्रिसिजन सीएनसी एवं वीएमसी मशीनिंग सेंटर्स",
+        fab_c3_d: "हमारे अनुभवी इंजीनियर्स इन-हाउस वर्टिकल सीएनसी मशीनों (VMC) द्वारा मोल्ड क्लैंपिंग प्लेट्स, स्ट्रेच रॉड्स और मुख्य पुर्जों का सूक्ष्मता से निर्माण करते हैं।",
+        fab_c4_t: "हेवी बेस फ्रेम वेल्डिंग एवं मोल्ड टूलिंग",
+        fab_c4_d: "अत्यधिक क्लैंपिंग टनेज और 24/7 तीव्र गति के झटके सहने के लिए भारी चेसिस फ्रेम और मोल्ड टूलिंग हमारे प्लांट में ही वेल्ड व मशीन किए जाते हैं।",
+        fab_cta_t: "चाकण एमआईडीसी स्थित हमारे फैब्रिकेशन प्लांट का दौरा करें",
+        fab_cta_d: "हम सभी पैकेजिंग उद्योगपतियों को हमारी आधुनिक लेजर कटिंग, सीएनसी मशीनिंग और टेस्टिंग लाइव देखने के लिए आमंत्रित करते हैं।",
+        fab_cta_btn1: "प्लांट विजिट का समय तय करें",
+        fab_cta_btn2: "फैक्ट्री गैलरी देखें",
 
         // Range of Products (Point 7)
         prod_tag: "हमारे उत्पाद",

@@ -52,7 +52,7 @@
 .sbr-f-brand-sub {
     font-size: 11px !important;
     font-weight: 700 !important;
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
     letter-spacing: 1px !important;
     text-transform: uppercase !important;
     margin-top: 3px !important;
@@ -81,7 +81,7 @@
     border-radius: 6px;
 }
 .sbr-f-pill i {
-    color: #ff5e14;
+    color: #EF6828;
     font-size: 11px;
 }
 
@@ -98,7 +98,7 @@
 .sbr-f-divider {
     width: 36px;
     height: 3px;
-    background: #ff5e14;
+    background: #EF6828;
     border-radius: 2px;
     margin-bottom: 20px;
     box-shadow: 0 0 8px rgba(255, 94, 20, 0.6);
@@ -129,11 +129,11 @@
 }
 .sbr-f-nav-link i {
     font-size: 11px !important;
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
     transition: transform 0.25s ease;
 }
 .sbr-f-nav-link:hover {
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
     transform: translateX(4px) !important;
 }
 .sbr-f-nav-link:hover i {
@@ -160,7 +160,7 @@
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
     font-size: 13px !important;
     flex-shrink: 0 !important;
     margin-top: 2px;
@@ -172,7 +172,7 @@
     display: block;
     font-size: 11px;
     font-weight: 700;
-    color: #ff5e14;
+    color: #EF6828;
     text-transform: uppercase;
     letter-spacing: 0.6px;
     margin-bottom: 2px;
@@ -189,7 +189,7 @@
     transition: color 0.2s ease;
 }
 .sbr-f-contact-text a:hover {
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
 }
 .sbr-f-phone-link {
     color: #ffffff !important;
@@ -212,7 +212,7 @@
 .sbr-f-map-action {
     display: block;
     background: rgba(255, 255, 255, 0.06);
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
     font-size: 12px;
     font-weight: 700;
     text-align: center;
@@ -336,8 +336,8 @@
     height: 46px !important;
     border-radius: 50% !important;
     background: #0b1523 !important;
-    border: 2px solid #ff5e14 !important;
-    color: #ff5e14 !important;
+    border: 2px solid #EF6828 !important;
+    color: #EF6828 !important;
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
@@ -348,7 +348,7 @@
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) !important;
 }
 .sbr-pro-scroll-top:hover {
-    background: #ff5e14 !important;
+    background: #EF6828 !important;
     color: #ffffff !important;
     transform: translateY(-4px) !important;
     box-shadow: 0 10px 25px rgba(255, 94, 20, 0.55) !important;
@@ -358,7 +358,7 @@
     position: fixed !important;
     bottom: 24px !important;
     right: 24px !important;
-    background: linear-gradient(135deg, #ff5e14 0%, #e04803 100%) !important;
+    background: linear-gradient(135deg, #EF6828 0%, #e04803 100%) !important;
     color: #ffffff !important;
     padding: 12px 22px !important;
     border-radius: 50px !important;

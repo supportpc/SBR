@@ -1,10 +1,12 @@
 <!-- Universal Header & Topbar Component Styles (Applies across all pages) -->
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700;800&family=Exo+2:wght@700;800;900&display=swap');
+
 /* --------------------------------------------------------------------------
    SBR Machines - Universal Header & Topbar Component Styles
    -------------------------------------------------------------------------- */
 .sbr-topbar {
-    background: #FF5E14 !important;
+    background: #EF6828 !important;
     border-bottom: 1px solid rgba(255, 255, 255, 0.08) !important;
     padding: 7px 0 !important;
     font-size: 13px !important;
@@ -44,7 +46,7 @@
 }
 
 .sbr-topbar .topbar-contact-link:hover {
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
 }
 
 /* Language Dropdown Component */
@@ -75,7 +77,7 @@
 .sbr-topbar .sbr-lang-dropdown-btn:hover,
 .sbr-topbar .sbr-lang-dropdown-btn.active {
     background: #ffffff !important;
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
     border-color: #ffffff !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
 }
@@ -87,7 +89,7 @@
 
 .sbr-topbar .sbr-lang-dropdown-btn:hover i,
 .sbr-topbar .sbr-lang-dropdown-btn.active i {
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
 }
 
 .sbr-lang-dropdown-btn .lang-caret {
@@ -148,12 +150,12 @@
 
 .sbr-lang-item:hover {
     background: #fff5ef !important;
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
 }
 
 .sbr-lang-item.selected {
     background: #fff0e6 !important;
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
     font-weight: 700 !important;
 }
 
@@ -168,7 +170,7 @@
 
 .sbr-lang-item .lang-check {
     font-size: 11px !important;
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
     opacity: 0 !important;
     transition: opacity 0.2s ease !important;
 }
@@ -195,14 +197,14 @@
 }
 
 .header-mobile-actions .sbr-lang-dropdown-btn i {
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
 }
 
 .header-mobile-actions .sbr-lang-dropdown-btn:hover,
 .header-mobile-actions .sbr-lang-dropdown-btn.active {
     background: #fff0e6 !important;
-    border-color: #ff5e14 !important;
-    color: #ff5e14 !important;
+    border-color: #EF6828 !important;
+    color: #EF6828 !important;
 }
 
 .sbr-topbar .topbar-social-links ul {
@@ -227,7 +229,7 @@
 }
 
 .sbr-topbar .topbar-social-links ul li a:hover i {
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
 }
 
 /* Main Header & Navbar across all pages - Fixed/Sticky on Scroll */
@@ -271,22 +273,22 @@ header.main-header .header-sticky.active {
 .navbar-brand {
     display: flex !important;
     align-items: center !important;
-    gap: 12px !important;
+    gap: 14px !important;
     text-decoration: none !important;
     padding: 0 !important;
     margin: 0 !important;
 }
 
 .brand-logo-img {
-    width: 60px !important;
-    height: 60px !important;
-    max-width: 60px !important;
+    width: auto !important;
+    height: 66px !important;
+    max-height: 70px !important;
     object-fit: contain !important;
     transition: transform 0.3s ease !important;
 }
 
 .navbar-brand:hover .brand-logo-img {
-    transform: scale(1.05) !important;
+    transform: scale(1.04) !important;
 }
 
 .brand-text-block {
@@ -296,13 +298,14 @@ header.main-header .header-sticky.active {
 }
 
 .brand-title {
-    font-family: 'DM Sans', sans-serif !important;
-    font-size: 20px !important;
-    font-weight: 800 !important;
-    letter-spacing: 0.5px !important;
-    color: #FF5E14 !important;
+    font-family: 'Rajdhani', 'Exo 2', sans-serif !important;
+    font-size: 25px !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.8px !important;
+    color: #EF6828 !important;
     line-height: 1.1 !important;
     text-transform: uppercase !important;
+    white-space: nowrap !important;
 }
 
 /* Nav Menu Space & No Wrapping on Any Screen */
@@ -330,7 +333,7 @@ header.main-header .header-sticky.active {
 
 .main-menu ul li a:hover,
 .main-menu ul li.active > a {
-    color: #ff5e14 !important;
+    color: #EF6828 !important;
 }
 
 .header-contact-btn {
@@ -339,7 +342,7 @@ header.main-header .header-sticky.active {
 }
 
 .header-contact-btn .btn-default {
-    background: #ff5e14 !important;
+    background: #EF6828 !important;
     color: #ffffff !important;
     padding: 10px 22px !important;
     border-radius: 6px !important;
@@ -368,7 +371,7 @@ header.main-header .header-sticky.active {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: linear-gradient(135deg, #ff5e14, #ff7e3d);
+    background: linear-gradient(135deg, #EF6828, #ff7e3d);
     color: #ffffff !important;
     padding: 7px 12px;
     border-radius: 20px;
@@ -377,6 +380,24 @@ header.main-header .header-sticky.active {
     text-decoration: none !important;
     box-shadow: 0 4px 10px rgba(255, 94, 20, 0.25);
     white-space: nowrap;
+}
+
+/* Medium screen adjustments (992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .brand-logo-img {
+        height: 56px !important;
+    }
+    .brand-title {
+        font-size: 20px !important;
+        letter-spacing: 0.5px !important;
+    }
+    .main-menu .nav-menu-wrapper {
+        margin: 0 10px !important;
+    }
+    .main-menu ul li a {
+        padding: 18px 8px !important;
+        font-size: 14px !important;
+    }
 }
 
 /* Mobile Sticky Enforcement across ALL pages */
@@ -410,12 +431,15 @@ header.main-header .header-sticky.active {
     }
 
     .brand-logo-img {
-        width: 52px !important;
-        height: 52px !important;
+        width: auto !important;
+        height: 50px !important;
     }
 
     .brand-title {
-        font-size: 15px !important;
+        font-family: 'Rajdhani', 'Exo 2', sans-serif !important;
+        font-size: 17px !important;
+        font-weight: 700 !important;
+        letter-spacing: 0.5px !important;
     }
 
     .header-mobile-actions {
@@ -433,6 +457,16 @@ header.main-header .header-sticky.active {
         display: none !important;
     }
 }
+
+@media (max-width: 480px) {
+    .brand-logo-img {
+        height: 42px !important;
+    }
+    .brand-title {
+        font-size: 14px !important;
+        letter-spacing: 0.3px !important;
+    }
+}
 </style>
 
 <!-- Topbar Section Start (Mobile Number & Language Tab above Main Navbar) -->
@@ -445,13 +479,13 @@ header.main-header .header-sticky.active {
                     <ul>
                         <li>
                             <a href="tel:+918793044005" class="topbar-contact-link">
-                                <i class="fa-solid text-white fa-phone me-1 text-accent" style="color: #ff5e14;"></i>
+                                <i class="fa-solid text-white fa-phone me-1 text-accent" style="color: #EF6828;"></i>
                                 <span>+91 8793044005</span>
                             </a>
                         </li>
                         <li class="d-none d-sm-inline-block">
                             <a href="mailto:sales@sbrmachines.com" class="topbar-contact-link">
-                                <i class="fa-solid text-white fa-envelope me-1 text-accent" style="color: #ff5e14;"></i>
+                                <i class="fa-solid text-white fa-envelope me-1 text-accent" style="color: #EF6828;"></i>
                                 <span>sales@sbrmachines.com</span>
                             </a>
                         </li>
